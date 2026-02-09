@@ -1,0 +1,33 @@
+@import "tailwindcss";
+
+@theme {
+  --font-saira: "Saira Extra Condensed", "open-sans";
+  --font-montserrat: "Montserrat", "open-sans";
+  --color-arcticmist-50: oklch(99.1% 0.002 247.8);
+  --color-arcticmist-100: oklch(97.8% 0.003 247.9);
+  --color-arcticmist-200: oklch(95.2% 0.009 242.8);
+  --color-arcticmist-300: oklch(92.0% 0.016 245.1);
+  --color-arcticmist-400: oklch(85.8% 0.026 250.0);
+  --color-arcticmist-500: oklch(78.6% 0.035 253.7);
+  --color-arcticmist-600: oklch(69.6% 0.042 261.5);
+  --color-arcticmist-700: oklch(60.4% 0.043 261.4);
+  --color-arcticmist-800: oklch(50.9% 0.046 263.4);
+  --color-arcticmist-900: oklch(41.0% 0.050 265.0);
+  --color-arcticmist-950: oklch(31.1% 0.040 266.2);
+  --color-obsidiancore-50: oklch(98.5% 0.000 89.9);
+  --color-obsidiancore-100: oklch(96.7% 0.003 264.5);
+  --color-obsidiancore-200: oklch(92.3% 0.005 286.3);
+  --color-obsidiancore-300: oklch(87.1% 0.005 286.3);
+  --color-obsidiancore-400: oklch(71.2% 0.013 286.1);
+  --color-obsidiancore-500: oklch(55.2% 0.014 285.9);
+  --color-obsidiancore-600: oklch(44.2% 0.015 285.8);
+  --color-obsidiancore-700: oklch(37.0% 0.012 285.8);
+  --color-obsidiancore-800: oklch(26.9% 0.000 89.9);
+  --color-obsidiancore-900: oklch(20.5% 0.000 89.9);
+  --color-obsidiancore-950: oklch(14.5% 0.000 89.9);
+}
+
+.text-outline {
+  -webkit-text-stroke: 3px oklch(95.2% 0.009 242.8);
+  color: transparent;
+}
