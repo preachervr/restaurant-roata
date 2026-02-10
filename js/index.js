@@ -18,10 +18,8 @@ links.forEach((link) => {
 // Mobile Menu Logic
 
 const btn = document.getElementById('btnMenu');
-const close = document.getElementById('closeMenu');
-const menu = document.getElementById('mobile-menu');
-
-const toggle = () => menu.classList.toggle('translate-x-full');
-
-btn.addEventListener('click', toggle);
-close.addEventListener('click', toggle);
+    const close = document.getElementById('closeMenu');
+    const menu = document.getElementById('mobile-menu');
+    const toggle = () => menu.classList.toggle('translate-x-full');
+    btn.addEventListener('click', toggle);
+    close.addEventListener('click', toggle);
