@@ -17,14 +17,11 @@ links.forEach((link) => {
 
 // Mobile Menu Logic
 
-const btnMenu = document.getElementById('btnMenu');
-const closeMenu = document.getElementById('closeMenu');
+const btn = document.getElementById('btnMenu');
+const close = document.getElementById('closeMenu');
 const menu = document.getElementById('mobile-menu');
 
-btnMenu.addEventListener('click', () => {
-  menu.classList.remove('translate-x-full', 'opacity-0', 'pointer-events-none');
-});
+const toggle = () => menu.classList.toggle('translate-x-full');
 
-closeMenu.addEventListener('click', () => {
-  menu.classList.add('translate-x-full', 'opacity-0', 'pointer-events-none');
-});
+btn.addEventListener('click', toggle);
+close.addEventListener('click', toggle);

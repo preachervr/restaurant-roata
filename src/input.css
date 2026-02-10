@@ -1,8 +1,8 @@
 @import "tailwindcss";
 
 @theme {
-  --font-saira: "Saira Extra Condensed", "open-sans";
-  --font-montserrat: "Montserrat", "open-sans";
+  --font-lora: "Saira Extra Condensed", "open-sans";
+  --font-playfair: "Playfair Display", "open-sans";
   --color-arcticmist-50: oklch(99.1% 0.002 247.8);
   --color-arcticmist-100: oklch(97.8% 0.003 247.9);
   --color-arcticmist-200: oklch(95.2% 0.009 242.8);
@@ -25,9 +25,4 @@
   --color-obsidiancore-800: oklch(26.9% 0.000 89.9);
   --color-obsidiancore-900: oklch(20.5% 0.000 89.9);
   --color-obsidiancore-950: oklch(14.5% 0.000 89.9);
-}
-
-.text-outline {
-  -webkit-text-stroke: 3px oklch(95.2% 0.009 242.8);
-  color: transparent;
 }
